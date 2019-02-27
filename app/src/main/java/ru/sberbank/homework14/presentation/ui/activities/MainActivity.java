@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements MainPresenter.Vie
     }
 
     private void initPresenter() {
-        mPresenter = new MainPresenterImpl(ThreadExecutor.getInstance(), MainThreadImpl.getInstance(), this, new ForecastRepositoryImpl());
+        mPresenter = new MainPresenterImpl(ThreadExecutor.getInstance(), MainThreadImpl.getInstance(), this, new ForecastRepositoryImpl(MainActivity.this));
 
     }
 
