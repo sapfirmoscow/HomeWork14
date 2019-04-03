@@ -4,7 +4,7 @@ import android.app.Application;
 
 public class WeatherApplication extends Application {
 
-    public static final String X_YANDEX_API_KEY = "47da9496-9039-495b-ac93-c86577e17237";
+    public static final String X_YANDEX_API_KEY = "fedbfe89-15ea-45e9-8374-2b0a634afbb1";
 
     @Override
     public void onCreate() {
